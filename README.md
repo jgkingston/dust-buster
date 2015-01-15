@@ -68,6 +68,11 @@ DustBuster is an enhanced syntax definition for .dust files that includes sublim
     {>"path/to/partial" params /}
 ```
 
+#### `dip|dust-inline-partial`
+```
+    {<inline-partial} {/inline-partial}
+```
+
 #### `dpd|dust-partial-dynamic`
 ```
     {>"path/to/partial{dynamic-param}" /}

@@ -30,6 +30,10 @@
             "contents": "{>\"${1:path/to/partial}{${2:dynamic-param}}\"/}"
         },
         {
+            "trigger": "dip|dust:inline partial",
+            "contents": "{<${1:inline-partial}}\n\t${2}\n{/${1}}"
+        },
+        {
             "trigger": "deq|dust-equals",
             "contents": "{@eq value=\"${1:bar}\"}${2}{/eq}"
         },
